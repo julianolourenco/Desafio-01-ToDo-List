@@ -1,0 +1,72 @@
+.tasks {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+.tasks .info {
+  display: flex;
+  align-items: center;  
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+
+.tasks .counter {
+  padding: 0.125rem 0.5rem ;
+  border-radius: 100px;
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.4;
+  background-color: var(--gray-400);
+}
+
+.tasks .created,
+.tasks .done {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  line-height: 1.4;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.tasks .created {
+  color: var(--blue);
+}
+
+.tasks .done {
+  color: var(--purple);
+}
+
+.tasks .empty {
+  /* display: none; */
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  border-radius: 8px;
+  border-top: 1px solid var(--gray-400)
+}
+
+.tasks .empty img {
+  display: block;
+  width: 3.5rem;
+  height: auto;
+  margin: 0 auto 1rem;
+}
+
+.tasks .empty p {
+  color: var(--gray-300);
+  font-size: 1rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.tasks .empty p strong {
+  display: block;
+}
+
+.tasks .list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
